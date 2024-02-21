@@ -1,0 +1,13 @@
+display: flex => flex
+flex-direction: row => flex-row
+justify-content: center => justify-center
+align-items: center => items-center
+height : 100% => h-full
+weidth : 100% => w-full 
+height : 100vh => h-screen
+
+background: #eofjsdk => bg-color-300
+color: #flsjdlf => text-red-300
+border: 1px solid red => border , border-4
+
+unit system : xs , sm , md , lg , xl , xxl , xxxl

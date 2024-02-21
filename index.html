@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My-Notes</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="flex flex-col  bg-red-100">
+    <div class="flex w-full bg-red-300 px-4 py-6">
+        <h1 class="text-slate-100 font-mono font-semibold text-2xl">Rashmi</h1>
+    </div>
+
+    <div class="flex flex-row">
+        <button onclick="add()" class="px-4 py-2 bg-blue-500 w-24 mx-4 my-6 rounded-md text-white">Add</button>
+        <button onclick="save()" class="px-4 py-2 bg-blue-500 w-24 mx-4 my-6 rounded-md text-white">Save</button>       
+    </div>
+
+    <div id="main" class="flex flex-wrap w-full bg-red-100 py-2 px-4 min-h-[calc(100vh-168px)] justify-center items-center gap-8">
+        <!-- <div class="h-64 w-72 bg-white p-2"><button onclick="del()" class="bg-white w-1/7 h-1/7 ml-auto flex text-red-950 font-bold text-xl">X</button><textarea class="outline-none h-5/6 w-full px-2"></textarea></div> -->
+        <!-- <div class="h-52 w-64 bg-white p-2"><textarea class="outline-none h-full w-full px-2"></textarea></div>-->
+
+    </div> 
+</body>
+
+<script src="./script.js"></script>
+
+</html>
